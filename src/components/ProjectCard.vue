@@ -4,10 +4,10 @@ import { ref, computed, onMounted, onUnmounted } from "vue";
 const projects = [
   {
     title: "F1 project",
-    image: "public/img/F1-screenshot.webp",
-    secImage: "public/img/newImg/F1.png",
+    image: "/img/F1-screenshot.webp",
+    secImage: "/img/newImg/F1.png",
     desc: "A front-end OpenF1 API based project.",
-    video: "public/video/F1ScreenRec.mp4",
+    video: "/video/F1ScreenRec.mp4",
     stack: [
       { name: "CSS3", icon: ["fab", "css3-alt"] },
       { name: "JavaScript", icon: ["fab", "js-square"] },
@@ -20,10 +20,10 @@ const projects = [
   },
   {
     title: "Réflexologie Côtière",
-    image: "public/img/Reflexo-screenshot.webp",
-    secImage: "public/img/newImg/RC.png",
+    image: "/img/Reflexo-screenshot.webp",
+    secImage: "/img/newImg/RC.png",
     desc: "A Symfony webapp meant for a reflexologist.",
-    video: "public/video/RefleCoScreenRec.mp4",
+    video: "/video/RefleCoScreenRec.mp4",
     stack: [
       { name: "CSS3", icon: ["fab", "css3-alt"] },
       { name: "Twig", icon: ["fab", "symfony"] },
@@ -39,9 +39,9 @@ const projects = [
   },
   {
     title: "Nihon",
-    image: "public/img/Nihon-screenshot.webp",
+    image: "/img/Nihon-screenshot.webp",
     desc: "A dynamic online manga store.",
-    video: "public/video/RefleCoScreenRec.mp4",
+    video: "/video/RefleCoScreenRec.mp4",
     stack: [
       { name: "CSS3", icon: ["fab", "css3-alt"] },
       { name: "HTML5", icon: ["fab", "html5"] },
@@ -57,9 +57,9 @@ const projects = [
   },
   {
     title: "Korea trip budgeting app",
-    image: "public/img/Korea-screenshot.png",
+    image: "/img/Korea-screenshot.png",
     desc: "A dynamic budgeting webapp for a trip to Korea",
-    video: "public/video/KFScreenRec.mp4",
+    video: "/video/KFScreenRec.mp4",
     stack: [
       { name: "HTML5", icon: ["fab", "html5"] },
       { name: "CSS3", icon: ["fab", "css3-alt"] },
@@ -757,7 +757,7 @@ footer {
   .project-card {
     padding: 1.5rem;
   }
-  .desktop-flex-section{
+  .desktop-flex-section {
     display: flex;
     justify-content: space-between;
   }
