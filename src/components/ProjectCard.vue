@@ -23,7 +23,7 @@ const projects = [
     image: "/img/Reflexo-screenshot.webp",
     secImage: "/img/newImg/RC.png",
     desc: "A Symfony webapp meant for a reflexologist.",
-    video: "/video/RefleCoScreenRec.mp4",
+    video: "/video/RefleCo2ScreenRec.mp4",
     stack: [
       { name: "CSS3", icon: ["fab", "css3-alt"] },
       { name: "Twig", icon: ["fab", "symfony"] },
@@ -41,7 +41,7 @@ const projects = [
     title: "Nihon",
     image: "/img/Nihon-screenshot.webp",
     desc: "A dynamic online manga store.",
-    video: "/video/RefleCoScreenRec.mp4",
+    video: "/video/RefleCo2ScreenRec.mp4",
     stack: [
       { name: "CSS3", icon: ["fab", "css3-alt"] },
       { name: "HTML5", icon: ["fab", "html5"] },
