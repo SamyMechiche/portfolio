@@ -206,7 +206,7 @@ function prevProject() {
         <a :href="project.gitHub" target="_blank" rel="noopener noreferrer">
           <i
             class="fa-brands fa-github color-transition"
-            :style="{ color: project.iColor, fontSize: '2.5rem' }"
+                :style="{ color: project.iColor, fontSize: '2.5rem', cursor: 'pointer' }"
           ></i>
         </a>
       </section>
@@ -338,7 +338,7 @@ function prevProject() {
             >
               <i
                 class="fa-brands fa-github color-transition"
-                :style="{ color: project.iColor, fontSize: '3rem' }"
+                :style="{ color: project.iColor, fontSize: '3rem', cursor: 'pointer' }"
               ></i>
             </a>
           </section>
